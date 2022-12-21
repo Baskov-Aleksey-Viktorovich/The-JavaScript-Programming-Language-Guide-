@@ -83,6 +83,7 @@ header{
          display: none;
         }
     .main__doc{
+        overflow: auto;
         position: relative;
          width: 100%;
          padding: 0;
@@ -109,6 +110,7 @@ header{
         }
         .actives{
             display: block;
+            overflow: auto;
             width: 180px;
             background-color: #000;
             color: white;
