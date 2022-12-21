@@ -2,13 +2,15 @@
     margin: 0;
     padding: 0;
 }
-code{    margin-left: -20px;
+code{    
     width: 100%;
+    min-width: 233px;
+    margin-left: -20px;
     padding: 15px;
     padding-left: 10px;
     padding-right: 45px;
-    min-width: 233px;
 }
+
 body{
     min-width: 290px;
     background-color: #ffffff;
@@ -38,6 +40,7 @@ header{
     scroll-behavior: auto;
 }
 .navbar ul{
+    display: block;
     height:88%;
     padding:0;
     overflow-y:auto;
@@ -73,3 +76,18 @@ header{
     margin: 0px;
 }
 
+@media screen and (max-width: 420px) {
+   .navbar{
+    display: none;
+   }
+   .main__doc{
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    overflow: auto;
+   }
+   .main__doc-title{
+    font-size: 18px;
+    text-align: center;
+   }
+  }
