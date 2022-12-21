@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+code{    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 45px;
+    min-width: 233px;
+}
 body{
     min-width: 290px;
     background-color: #ffffff;
@@ -65,3 +72,4 @@ header{
     text-align: left;
     margin: 0px;
 }
+
