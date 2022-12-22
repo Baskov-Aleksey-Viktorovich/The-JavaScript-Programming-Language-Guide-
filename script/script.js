@@ -4,7 +4,6 @@ let menuActive = document.querySelector(".menu__active");
 
 function activeMenu() {
   navMenu.classList.toggle("actives");
-  console.log("i am work");
 }
 menuActive.onclick = activeMenu;
 function closeMenu() {
