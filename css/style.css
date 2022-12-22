@@ -91,8 +91,9 @@ header{
          overflow: auto;
         }
     .main__doc-title{
-         font-size: 18px;
+         font-size: 16px;
          text-align: center;
+         align-items: center;
         }
         .menu__active{
             z-index: 5;
@@ -121,10 +122,16 @@ header{
         .navbar__title{
             color: #fff;
         }
+        .navbar li{
+            overflow: hidden;
+        }
         .navbar li a{
             text-decoration: underline;
             color: white;
             padding: 0 0 10px 0;
             font-size: 14px;
+        }
+        main p {
+            padding: 10px;
         }
        }
