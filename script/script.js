@@ -10,3 +10,7 @@ function closeMenu() {
   navMenu.classList.remove("actives");
 }
 mainDoc.onclick = closeMenu;
+
+function filterRangeInPlace(arr, a, b){
+  arr.map((item) => {a <= arr[item] && arr[item]<= b});
+}
