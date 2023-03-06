@@ -76,8 +76,15 @@ header{
 }
 .menu__active{display: none;}
 code{
-    color: #092b53;
+    display: block;
+    width: 100vh;
+    height: 20wv;
+    color: white;
     font-size: 16px;
+    background-color: #292d3e;
+    overflow-x: auto;
+    padding: 20px 5px 20px 5px;
+    border-radius: 5px;
 }
 
 @media screen and (max-width: 420px) {
@@ -138,5 +145,8 @@ code{
         }
         code{
             font-size: 18px;
+            width: 50vh;
+            height: 20wv;
+            
         }
        }
