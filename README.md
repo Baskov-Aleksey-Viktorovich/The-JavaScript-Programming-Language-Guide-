@@ -1,0 +1,1 @@
+#This repository was created to simplify my personal learning of front-end and web technologies, but I would be happy if it helps someone else too
