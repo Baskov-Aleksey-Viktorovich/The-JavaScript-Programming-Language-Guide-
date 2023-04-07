@@ -100,7 +100,7 @@ code{
     border-radius: 5px;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 1260px) {
     p {
         padding: 10px;
     }
