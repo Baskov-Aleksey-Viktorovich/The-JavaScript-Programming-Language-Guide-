@@ -40,6 +40,11 @@ header{
     font-size: 20px;
     text-align: center;
 }
+
+h3 {
+    text-align: center;
+    padding: 10px;
+}
 .navbar{
     position: fixed;
     top: 0px;
@@ -98,6 +103,10 @@ code{
     overflow-x: auto;
     padding: 20px 5px 20px 5px;
     border-radius: 5px;
+}
+
+.attention{
+    color: red;
 }
 
 @media screen and (max-width: 1260px) {
